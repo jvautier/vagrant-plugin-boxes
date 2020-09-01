@@ -1,0 +1,23 @@
+---
+#https://app.vagrantup.com/generic
+alpine-3.10.0:
+  vm:
+    box: generic/alpine310
+alpine-3.9.4:
+  vm:
+    box: generic/alpine39
+ubuntu-19.04:
+  vm:
+    box: generic/ubuntu1904
+ubuntu-18.04:
+  vm:
+    box: generic/ubuntu1804
+debian:
+  vm:
+    box: generic/debian9
+centos8:
+  vm:
+    box: generic/centos8
+centos7:
+  vm:
+    box: generic/centos7

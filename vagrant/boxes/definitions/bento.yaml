@@ -1,0 +1,35 @@
+---
+#https://app.vagrantup.com/bento
+amazonlinux-2:
+  vm:
+    box: bento/amazonlinux-2
+ubuntu:
+  vm:
+    box: bento/ubuntu-19.04
+disco:
+  vm:
+    box: bento/ubuntu-19.04
+bionic:
+  vm:
+    box: bento/ubuntu-18.04
+xenial:
+  vm:
+    box: bento/ubuntu-16.04
+debian:
+  vm:
+    box: bento/debian-9.6
+debian-9.6:
+  vm:
+    box: bento/debian-9.6
+debian-8.10:
+  vm:
+    box: bento/debian-8.10
+debian95:
+  vm:
+    box: bento/debian-9.5
+centos-7.6:
+  vm:
+    box: bento/centos-7.6
+centos-7.5:
+  vm:
+    box: bento/centos-7.5

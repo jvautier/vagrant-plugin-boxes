@@ -1,0 +1,25 @@
+---
+  xenial:
+    packer:
+      template: './packer/definitions/ubuntu.yml'
+      # template_output_dir: 'build/ubuntu/'
+      #  "<%= File.join(File.dirname(__FILE__), 'provision', 'ansible', 'boxes_development.yml') %>"
+      provisioners:
+        - type: ansible-local
+          playbook_file: "{{ pwd }}/provision/ansible/boxes_development.yaml"
+          command: ANSIBLE_FORCE_COLOR=1 PYTHONUNBUFFERED=1 ansible-playbook
+          extra_arguments:
+            - "-e install=true"
+          role_paths: 
+          <% Dir["#{File.join(File.dirname(__FILE__), 'provision', 'ansible', 'roles')}/*"].each do |file| %>
+          - "<%= file %>"
+          <% end %>
+          clean_staging_directory: true
+    vm:
+      box: 'bento/ubuntu-16.04'
+    provision:
+      _proxies:
+        _definition: proxies.boxes
+      boxes_development:
+        _definition: development.boxes
+          

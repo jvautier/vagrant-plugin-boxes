@@ -1,0 +1,14 @@
+.vagrant
+.vagrant-boxes
+.storage
+.user
+.boxes
+.builds
+.tmp
+.log
+.old
+packer_cache
+.packer_cache
+packer.log
+logs/
+.isos

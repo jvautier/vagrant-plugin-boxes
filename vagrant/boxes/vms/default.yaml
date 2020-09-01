@@ -1,0 +1,98 @@
+xxsmall:
+  provider:
+    virtualbox:
+      memory: 512
+      cpus: 1
+      gui: false
+      _customize:
+        # nictype1: virtio
+        # nictype2: virtio
+        cpus: 1
+        # natdnshostresolver1: "on"
+        # natdnsproxy1: "on"
+        vram: 256
+        cpuexecutioncap: 100
+xsmall:
+  provider:
+    virtualbox:
+      memory: 1024
+      cpus: 1
+      gui: false
+      _customize:
+        # nictype1: virtio
+        # nictype2: virtio
+        cpus: 1
+        # natdnshostresolver1: "on"
+        # natdnsproxy1: "on"
+        vram: 256
+        cpuexecutioncap: 100
+small:
+  provider:
+    virtualbox:
+      memory: 2048
+      cpus: 1
+      gui: false
+      _customize:
+        # nictype1: virtio
+        # nictype2: virtio
+        cpus: 1
+        # natdnshostresolver1: "on"
+        # natdnsproxy1: "on"
+        vram: 256
+        cpuexecutioncap: 100
+medium:
+  provider:
+    virtualbox:
+      memory: 4096
+      cpus: 2
+      gui: false
+      _customize:
+        # nictype1: virtio
+        # nictype2: virtio
+        cpus: 2
+        # natdnshostresolver1: "on"
+        # natdnsproxy1: "on"
+        vram: 256
+        cpuexecutioncap: 100
+large:
+  provider:
+    virtualbox:
+      memory: 8192
+      cpus: 4
+      gui: false
+      _customize:
+        # nictype1: virtio
+        # nictype2: virtio
+        cpus: 2
+        # natdnshostresolver1: "on"
+        # natdnsproxy1: "on"
+        vram: 256
+        cpuexecutioncap: 100
+xlarge:
+  provider:
+    virtualbox:
+      memory: 16384
+      cpus: 6
+      gui: false
+      _customize:
+        # nictype1: virtio
+        # nictype2: virtio
+        cpus: 2
+        # natdnshostresolver1: "on"
+        # natdnsproxy1: "on"
+        vram: 256
+        cpuexecutioncap: 100
+xxlarge:
+  provider:
+    virtualbox:
+      memory: 32768
+      cpus: 6
+      gui: false
+      _customize:
+        # nictype1: virtio
+        # nictype2: virtio
+        cpus: 2
+        # natdnshostresolver1: "on"
+        # natdnsproxy1: "on"
+        vram: 256
+        cpuexecutioncap: 100

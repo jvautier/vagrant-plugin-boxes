@@ -1,4 +1,5 @@
 ---
+# See https://github.com/jvautier/project-cli
 fullname: jvautier/vagrant-plugin-boxes
 description: Vagrant plugin to handle boxes with yaml [wip]
 tags:

@@ -6,4 +6,7 @@ tags:
   - vagrant
   - vagrant-plugin
   - yaml
-github: {}
+github:
+  has_issues: true
+  has_projects: false
+  has_wiki: false

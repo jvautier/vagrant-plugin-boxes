@@ -1,0 +1,8 @@
+---
+fullname: jvautier/vagrant-plugin-boxes
+description: Vagrant plugin to handle boxes with yaml [wip]
+tags:
+  - vagrant
+  - vagrant-plugin
+  - yaml
+github: {}
